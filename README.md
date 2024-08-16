@@ -34,4 +34,4 @@ This is a decentralized voting application that allows users to securely cast th
 10. login with your metamask account and perform operations...
 
 
-11. 
+
