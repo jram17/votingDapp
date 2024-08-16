@@ -2,7 +2,7 @@ const { ethers } = require("hardhat");
 
 async function main(){
     const Voting=await ethers.getContractFactory('Voting');
-    const Voting_=await Voting.deploy(["venke","anpu","kavin","jayaram"],10);
+    const Voting_=await Voting.deploy(["venke","anpu","kavin","jayaram"],200);
     console.log("contract address:",Voting_.address);
 }
 

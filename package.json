@@ -9,10 +9,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^16.4.5",
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "dotenv": "^16.4.5",
     "ethers": "^5.7.1",
     "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "votingdapp": "file:"
   }
 }
